@@ -37,8 +37,8 @@ namespace ТвиттерАПИ
             var tweets_search = new TwitterSearchResult();
             var resultList = new List<TwitterStatus>();
 
-            var twitterService = new TwitterService("tcUrC6CulKP8yaVCLkoM9RptR", "ef0KOnFUF444zX2VFg7AUL4zNURSwMzt5lfZe8zTVkvfBsAM87");
-            twitterService.AuthenticateWith("782651000230322176-PBcBMmnl3qSvKUns7OpaKZf3WlneVpr", "UH3DrtYH4vIMnO4yGm1J4sqTxA8QlwbSaXtm1HDBCXekG");
+            var twitterService = new TwitterService("key", "key");
+            twitterService.AuthenticateWith("key", "key");
             var options = new SearchOptions()
             {
                 Q = keyword,
