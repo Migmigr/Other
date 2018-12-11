@@ -10,7 +10,7 @@ namespace Parser
     class Program
     {
         /// <summary>
-        /// Класс отвечающий за пура Автор-ссылка на автора
+        /// Класс отвечающий за пару Автор-ссылка на автора
         /// </summary>
         public class Autors
         {
